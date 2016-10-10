@@ -1,26 +1,15 @@
 {
-  "name": "react-redux-universal-hot-example",
-  "description": "Example of an isomorphic (universal) webapp using react redux and hot reloading",
-  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "name": "live-search-input",
+  "description": "Live search input using rxjs (observables)",
+  "author": "Jeong Park <jbpark0509@hotmail.com> (http://github.com/jbpark0509)",
   "license": "MIT",
-  "version": "0.9.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/react-redux-universal-hot-example"
+    "url": "https://github.com/jbpark0509/LiveSearchInput"
   },
-  "homepage": "https://github.com/erikras/react-redux-universal-hot-example",
   "keywords": [
-    "react",
-    "isomorphic",
-    "universal",
-    "webpack",
-    "express",
-    "hot reloading",
-    "react-hot-reloader",
-    "redux",
-    "starter",
-    "boilerplate",
-    "babel"
+    "live search input"
   ],
   "main": "bin/server.js",
   "scripts": {
