@@ -20,7 +20,7 @@ export default class Html extends Component{
     return(
       <html lang="en-US">
         <head>
-          <title>Isomorphic Template</title>
+          <title>Live Search Input</title>
           <meta charSet="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="/favicon.ico" />
