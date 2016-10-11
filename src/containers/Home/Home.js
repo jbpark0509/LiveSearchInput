@@ -21,12 +21,12 @@ export default class Home extends React.Component {
             <div className={ styles.Home }>
                 <div className="form-group">
                     <LiveSearchInput
-                    id="myLiveInput"
-                    class={ `${styles.LiveInput} form-control` }
-                    debounce={ 200 }
-                    url="/api/users"
-                    onSuccess={ this.myCallback }
-                    placeholder="Enter a name" />
+                        id="myLiveInput"
+                        class={ `${styles.LiveInput} form-control` }
+                        debounce={ 200 }
+                        url="/api/users"
+                        onSuccess={ this.myCallback }
+                        placeholder="Enter a name" />
                 </div>
                 <hr/>
                 <ul className={ styles.SearchResultBox } id="SearchResultBox">

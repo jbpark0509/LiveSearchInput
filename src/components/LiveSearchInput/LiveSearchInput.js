@@ -9,7 +9,7 @@ export default class LiveSearchInput extends React.Component {
     }
 
     componentDidMount() {
-        const keyPressObservable = this.init(document.getElementById(this.props.id));
+        const keyPressObservable = this.init(this.refs.LiveSearchInput);
         keyPressObservable.forEach(
             (resp) => {
                 if (this.props.onSuccess) { this.props.onSuccess(resp); }
@@ -62,18 +62,17 @@ export default class LiveSearchInput extends React.Component {
         return (
             <input
                 type="text"
+                ref="LiveSearchInput"
                 className={ this.props.class }
-                id={ this.props.id }
                 placeholder={ this.props.placeholder } />
         );
     }
 }
 
 LiveSearchInput.propTypes = {
-    id: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
+    queryName: PropTypes.string.isRequired,
     onSuccess: PropTypes.func,
-    queryName: PropTypes.string,
     placeholder: PropTypes.string,
     class: PropTypes.string,
     noResultText: PropTypes.string,
