@@ -7,9 +7,9 @@ This is a react version of asynchronous live search input using RxJs Observables
 
 1. Clone the repository.
 
-	git clone <repo> && cd LiveSearchInput
+	git clone https://github.com/jbpark0509/LiveSearchInput.git && cd LiveSearchInput
 
-2. Install npm dependencies.
+2. Install npm dependencies.ddd
 
 	npm install
 
