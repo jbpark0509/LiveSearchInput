@@ -25,7 +25,7 @@ Copy LiveSearchInput.js component in ./src/components/ directory to your project
 
 ## Configuration
 
-The following are prop types. Required props are marked ()* beside name
+The following are prop types. Required props are marked * beside name
 
 Prop Name | Description
 ------ | -----------
